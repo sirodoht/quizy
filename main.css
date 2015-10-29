@@ -24,32 +24,65 @@ body {
   margin-right: 20px;
 }
 
-.btn-custom {
+.btn-orange {
   color: #FFF;
   background-color: #FF6C00;
   border-color: #FF6C00;
 }
-.btn-custom:hover,
-.btn-custom:focus,
-.btn-custom:active,
-.btn-custom.active {
+.btn-orange:hover,
+.btn-orange:focus,
+.btn-orange:active,
+.btn-orange.active {
   color: #FFF;
   background-color: #e66100;
   border-color: #cc5600;
 }
-.btn-custom.disabled:hover,
-.btn-custom.disabled:focus,
-.btn-custom.disabled:active,
-.btn-custom.disabled.active,
-.btn-custom[disabled]:hover,
-.btn-custom[disabled]:focus,
-.btn-custom[disabled]:active,
-.btn-custom[disabled].active,
-fieldset[disabled] .btn-custom:hover,
-fieldset[disabled] .btn-custom:focus,
-fieldset[disabled] .btn-custom:active,
-fieldset[disabled] .btn-custom.active {
+.btn-orange.disabled:hover,
+.btn-orange.disabled:focus,
+.btn-orange.disabled:active,
+.btn-orange.disabled.active,
+.btn-orange[disabled]:hover,
+.btn-orange[disabled]:focus,
+.btn-orange[disabled]:active,
+.btn-orange[disabled].active,
+fieldset[disabled] .btn-orange:hover,
+fieldset[disabled] .btn-orange:focus,
+fieldset[disabled] .btn-orange:active,
+fieldset[disabled] .btn-orange.active {
   color: #FFF;
   background-color: #FF6C00;
   border-color: #FF6C00;
+}
+
+.btn-transred {
+  color: #FFF;
+	border: none;
+	padding: 0.6em 1.2em;
+	background: #c0392b;
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin: 3px 2px;
+	border-radius: 2px;
+	text-transform: uppercase;
+}
+.btn-transred:hover,
+.btn-transred:focus,
+.btn-transred:active,
+.btn-transred.active {
+  color: #FFF;
+}
+.btn-transred.disabled:hover,
+.btn-transred.disabled:focus,
+.btn-transred.disabled:active,
+.btn-transred.disabled.active,
+.btn-transred[disabled]:hover,
+.btn-transred[disabled]:focus,
+.btn-transred[disabled]:active,
+.btn-transred[disabled].active,
+fieldset[disabled] .btn-transred:hover,
+fieldset[disabled] .btn-transred:focus,
+fieldset[disabled] .btn-transred:active,
+fieldset[disabled] .btn-transred.active {
+  color: #FFF;
 }
