@@ -1,18 +1,21 @@
 body {
-  color: #333;
+  color: #FFF;
+  background: #E74C3C;
+  font-family: Lato;
 }
 
 .team-title input {
   border: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #fff;
   padding-bottom: 5px;
   width: 60%;
   text-align: right;
+  background: transparent;
 }
 
 .team-score {
   font-size: 72px;
-  margin-left: 100px;
+  margin-left: 140px;
 }
 
 .team-offset .btn {
