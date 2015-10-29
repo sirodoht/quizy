@@ -6,5 +6,5 @@ angular.module('scoreApp', [])
 
     score.correct = function(teamNumber) {
       score.team[teamNumber] = score.team[teamNumber] + 1;
-    }
+    };
   });
