@@ -2,9 +2,6 @@ body {
   color: #333;
 }
 
-.team-title {
-}
-
 .team-title input {
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -16,13 +13,6 @@ body {
 .team-score {
   font-size: 72px;
   margin-left: 100px;
-}
-
-.team-offset {
-  /*display: inline-block;*/
-  /*margin-left: -95px;*/
-  /*margin-top: 23px;*/
-  /*float: left;*/
 }
 
 .team-offset .btn {
