@@ -19,7 +19,7 @@
       <div class="row" ng-controller="ScoreCtrl as score">
         <div class="col-lg-6">
           <div class="team-offset">
-            <button ng-click="score.correct(0)" class="btn btn-custom" type="submit">Correct!</button>
+            <button ng-click="score.correct(0)" class="btn btn-transred" type="submit">Correct!</button>
           </div>
           <div class="team-title">
             <h2><input type="text" name="name-1" value="Team 1"></h2>
@@ -30,7 +30,7 @@
         </div>
         <div class="col-lg-6">
           <div class="team-offset">
-            <button ng-click="score.correct(1)" class="btn btn-custom" type="submit">Correct!</button>
+            <button ng-click="score.correct(1)" class="btn btn-transred" type="submit">Correct!</button>
           </div>
           <div class="team-title">
             <h2><input type="text" name="name-2" value="Team 2"></h2>
@@ -39,7 +39,7 @@
             {{ score.team[1] }}
           </div>
         </div>
-      </div>
+      </div><!-- row end -->
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
