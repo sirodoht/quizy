@@ -1,6 +1,6 @@
 body {
-  color: #FFF;
-  background: #E74C3C;
+  color: #fff;
+  background: #e74c3c;
   font-family: Lato;
 }
 
@@ -25,15 +25,15 @@ body {
 }
 
 .btn-orange {
-  color: #FFF;
-  background-color: #FF6C00;
-  border-color: #FF6C00;
+  color: #fff;
+  background-color: #ff6c00;
+  border-color: #ff6c00;
 }
 .btn-orange:hover,
 .btn-orange:focus,
 .btn-orange:active,
 .btn-orange.active {
-  color: #FFF;
+  color: #fff;
   background-color: #e66100;
   border-color: #cc5600;
 }
@@ -49,13 +49,13 @@ fieldset[disabled] .btn-orange:hover,
 fieldset[disabled] .btn-orange:focus,
 fieldset[disabled] .btn-orange:active,
 fieldset[disabled] .btn-orange.active {
-  color: #FFF;
-  background-color: #FF6C00;
-  border-color: #FF6C00;
+  color: #fff;
+  background-color: #ff6c00;
+  border-color: #ff6c00;
 }
 
 .btn-transred {
-  color: #FFF;
+  color: #fff;
 	border: none;
 	padding: 0.6em 1.2em;
 	background: #c0392b;
@@ -70,7 +70,7 @@ fieldset[disabled] .btn-orange.active {
 .btn-transred:focus,
 .btn-transred:active,
 .btn-transred.active {
-  color: #FFF;
+  color: #fff;
 }
 .btn-transred.disabled:hover,
 .btn-transred.disabled:focus,
@@ -84,5 +84,5 @@ fieldset[disabled] .btn-transred:hover,
 fieldset[disabled] .btn-transred:focus,
 fieldset[disabled] .btn-transred:active,
 fieldset[disabled] .btn-transred.active {
-  color: #FFF;
+  color: #fff;
 }
